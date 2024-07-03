@@ -1,0 +1,596 @@
+{
+  "26261U": {
+    "name": "Addakhla  -  Lycée Okba Ibn Nafea",
+    "filier": {
+      "38": {
+        "name": "Physique, Chimie et Sciences de l'Ingénieur",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  
+  "05026M": {
+    "name": "Agadir  -  Lycée Réda Slaoui",
+    "filier": {
+      "36": {
+        "name": "Mathématiques Physique et Sciences de l’Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "38": {
+        "name": "Physique, Chimie et Sciences de l'Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "39": {
+        "name": "Economie et Commerce - Option Scientifique",
+        "list": [
+          14
+        ]
+      },
+      "40": {
+        "name": "Economie et Commerce - Option Technologique",
+        "list": [
+          14
+        ]
+      },
+      "41": {
+        "name": "Technologie et Sciences Industrielles",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "54376D": {
+    "name": "Benguerir  -  Lycée d'Excellence Mohammed VI",
+    "filier": {
+      "36": {
+        "name": "Mathématiques Physique et Sciences de l’Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "41": {
+        "name": "Technologie et Sciences Industrielles",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "07699T": {
+    "name": "Beni Mellal -  Lycée Qualifiant Technique Mohammed V",
+    "filier": {
+      "36": {
+        "name": "Mathématiques Physique et Sciences de l’Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "41": {
+        "name": "Technologie et Sciences Industrielles",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "01566B": {
+    "name": "Casablanca -  Lycée Mohammed V",
+    "filier": {
+      "36": {
+        "name": "Mathématiques Physique et Sciences de l’Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "38": {
+        "name": "Physique, Chimie et Sciences de l'Ingénieur",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "58169B": {
+    "name": "CASABLANCA -  Lycée Mohammed VI d'excellence - Casablanca",
+    "filier": {
+      "36": {
+        "name": "Mathématiques Physique et Sciences de l’Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "40": {
+        "name": "Economie et Commerce - Option Technologique",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "01483L": {
+    "name": "Casablanca -  Lycée Qualifiant  Al-Khansaa",
+    "filier": {
+      "36": {
+        "name": "Mathématiques Physique et Sciences de l’Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "39": {
+        "name": "Economie et Commerce - Option Scientifique",
+        "list": [
+          14
+        ]
+      },
+      "40": {
+        "name": "Economie et Commerce - Option Technologique",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "08732R": {
+    "name": "El Jadida -  Lycée Qualifiant Technique Errazi",
+    "filier": {
+      "36": {
+        "name": "Mathématiques Physique et Sciences de l’Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "38": {
+        "name": "Physique, Chimie et Sciences de l'Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "39": {
+        "name": "Economie et Commerce - Option Scientifique",
+        "list": [
+          14
+        ]
+      },
+      "40": {
+        "name": "Economie et Commerce - Option Technologique",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "28808M": {
+    "name": "Errachidia -  Lycée qualifiant Moulay Ali Cherif",
+    "filier": {
+      "36": {
+        "name": "Mathématiques Physique et Sciences de l’Ingénieur",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "02067W": {
+    "name": "Fête -  Lycée Qualifiant Moulay Idriss",
+    "filier": {
+      "36": {
+        "name": "Mathématiques Physique et Sciences de l’Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "38": {
+        "name": "Physique, Chimie et Sciences de l'Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "40": {
+        "name": "Economie et Commerce - Option Technologique",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "10662N": {
+    "name": "Guelmim -  LYCEE QUALIFIANT BAB ESSAHRA",
+    "filier": {
+      "36": {
+        "name": "Mathématiques Physique et Sciences de l’Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "38": {
+        "name": "Physique, Chimie et Sciences de l'Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "39": {
+        "name": "Economie et Commerce - Option Scientifique",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "25529Y": {
+    "name": "Kénitra  -  Lycée Mohammed 6",
+    "filier": {
+      "36": {
+        "name": "Mathématiques Physique et Sciences de l’Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "38": {
+        "name": "Physique, Chimie et Sciences de l'Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "39": {
+        "name": "Economie et Commerce - Option Scientifique",
+        "list": [
+          14
+        ]
+      },
+      "40": {
+        "name": "Economie et Commerce - Option Technologique",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "12259Z": {
+    "name": "Khouribga  -  Lycée Ibn Abdoun",
+    "filier": {
+      "36": {
+        "name": "Mathématiques Physique et Sciences de l’Ingénieur",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "06475M": {
+    "name": "Laâyoune  -  Lycée Qualifiant Lissane Eddine Ibn Al-Khatib",
+    "filier": {
+      "36": {
+        "name": "Mathématiques Physique et Sciences de l’Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "40": {
+        "name": "Economie et Commerce - Option Technologique",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "18542D": {
+    "name": "Marrakech  -  Lycée Ibn Timiya",
+    "filier": {
+      "36": {
+        "name": "Mathématiques Physique et Sciences de l’Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "38": {
+        "name": "Physique, Chimie et Sciences de l'Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "40": {
+        "name": "Economie et Commerce - Option Technologique",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "56609F": {
+    "name": "Martil -  Lycée Méditerranéen LYMED",
+    "filier": {
+      "36": {
+        "name": "Mathématiques Physique et Sciences de l’Ingénieur",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "04095A": {
+    "name": "Meknés  -  Lycée Qualifiant Omar Ibn Al-Khattab",
+    "filier": {
+      "36": {
+        "name": "Mathématiques Physique et Sciences de l’Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "38": {
+        "name": "Physique, Chimie et Sciences de l'Ingénieur",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "03947P": {
+    "name": "Müknes -  Lycée Qualifiant Moulay Ismail",
+    "filier": {
+      "39": {
+        "name": "Economie et Commerce - Option Scientifique",
+        "list": [
+          14
+        ]
+      },
+      "40": {
+        "name": "Economie et Commerce - Option Technologique",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "01911B": {
+    "name": "Mohammedia  -  Lycée Technique",
+    "filier": {
+      "36": {
+        "name": "Mathématiques Physique et Sciences de l’Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "41": {
+        "name": "Technologie et Sciences Industrielles",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "12749G": {
+    "name": "Nador  -  LYCEE QUALIFIANT ABDELKARIM AL KHATTABI",
+    "filier": {
+      "39": {
+        "name": "Economie et Commerce - Option Scientifique",
+        "list": [
+          14
+        ]
+      },
+      "40": {
+        "name": "Economie et Commerce - Option Technologique",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "27239G": {
+    "name": "OUARZAZAT -  Lycée qualifiant Prince Héritier Moulay El Hassan",
+    "filier": {
+      "38": {
+        "name": "Physique, Chimie et Sciences de l'Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "39": {
+        "name": "Economie et Commerce - Option Scientifique",
+        "list": [
+          14
+        ]
+      },
+      "40": {
+        "name": "Economie et Commerce - Option Technologique",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "04398E": {
+    "name": "Oujda  -  Lycée Omar Ibn Abdelaziz",
+    "filier": {
+      "36": {
+        "name": "Mathématiques Physique et Sciences de l’Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "41": {
+        "name": "Technologie et Sciences Industrielles",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "55530H": {
+    "name": "Rabat -  Lycée Al-Zahrawi- Rabat",
+    "filier": {
+      "36": {
+        "name": "Mathématiques Physique et Sciences de l’Ingénieur",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "01121T": {
+    "name": "Rabat -  Lycée Moulay Youssef",
+    "filier": {
+      "36": {
+        "name": "Mathématiques Physique et Sciences de l’Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "38": {
+        "name": "Physique, Chimie et Sciences de l'Ingénieur",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "01118P": {
+    "name": "Rabat -  Lycée Omar Al-Khayyam",
+    "filier": {
+      "39": {
+        "name": "Economie et Commerce - Option Scientifique",
+        "list": [
+          14
+        ]
+      },
+      "40": {
+        "name": "Economie et Commerce - Option Technologique",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "25743F": {
+    "name": "Safi -  Lycée Moulay Abdellah",
+    "filier": {
+      "36": {
+        "name": "Mathématiques Physique et Sciences de l’Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "39": {
+        "name": "Economie et Commerce - Option Scientifique",
+        "list": [
+          14
+        ]
+      },
+      "41": {
+        "name": "Technologie et Sciences Industrielles",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "01265Z": {
+    "name": "Salé -  Lycée Selmane Al-Farissi",
+    "filier": {
+      "36": {
+        "name": "Mathématiques Physique et Sciences de l’Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "41": {
+        "name": "Technologie et Sciences Industrielles",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "14638K": {
+    "name": "Settat  -  Lycée Technique",
+    "filier": {
+      "39": {
+        "name": "Economie et Commerce - Option Scientifique",
+        "list": [
+          14
+        ]
+      },
+      "40": {
+        "name": "Economie et Commerce - Option Technologique",
+        "list": [
+          14
+        ]
+      },
+      "41": {
+        "name": "Technologie et Sciences Industrielles",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "18410K": {
+    "name": "Tanger  -  Lycée Moulay Hassan",
+    "filier": {
+      "36": {
+        "name": "Mathématiques Physique et Sciences de l’Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "38": {
+        "name": "Physique, Chimie et Sciences de l'Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "39": {
+        "name": "Economie et Commerce - Option Scientifique",
+        "list": [
+          14
+        ]
+      },
+      "40": {
+        "name": "Economie et Commerce - Option Technologique",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "25736Y": {
+    "name": "Taza  -  Lycée Charrif El Idrissi",
+    "filier": {
+      "36": {
+        "name": "Mathématiques Physique et Sciences de l’Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "39": {
+        "name": "Economie et Commerce - Option Scientifique",
+        "list": [
+          14
+        ]
+      }
+    }
+  },
+  "26974U": {
+    "name": "Tetouan -  Centre CPGE ",
+    "filier": {
+      "36": {
+        "name": "Mathématiques Physique et Sciences de l’Ingénieur",
+        "list": [
+          14
+        ]
+      },
+      "41": {
+        "name": "Technologie et Sciences Industrielles",
+        "list": [
+          14
+        ]
+      }
+    }
+  }
+}

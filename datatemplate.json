@@ -1,0 +1,22 @@
+{
+  "2024": {
+
+    "U2415Z": {
+      "name": "just a school",
+
+      "filier": {
+
+        "32": {
+          "name": "just a filier",
+          "list": [
+            14,
+            3,
+            4,
+            5
+          ]
+        }
+        
+      }
+    }
+  }
+}
