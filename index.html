@@ -6,10 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>CPGE archive</title>
-  <script defer>
 
-
-  </script>
 </head>
 
 <body>
@@ -31,16 +28,82 @@
     <select name="tranche" id="tranche">
       <option value="" disabled selected>choisir une tranche</option>
     </select>
-
     <button type="submit">get List</button>
   </form>
 
-  <main>
+  <h2 id="fullname"></h2>
+  <main id="main">
     <!-- <iframe style="width: 100%; height: 100vh;" src="/output/2024-01118P-39-14.html" frameborder="0"></iframe> -->
   </main>
   <footer>
     <p>this site is not owned by CPGE, this is a side project to help other get a view on how note were</p>
   </footer>
+  <script defer>
+    //select all selects
+    const yearSelect = document.getElementById("year");
+    const schoolSelect = document.getElementById("school");
+    const filierSelect = document.getElementById("filier");
+    const trancheSelect = document.getElementById("tranche");
+
+    let MainData = {};
+    let fils = {}
+    // get years
+    fetch("years.json").then(res => res.json()).then(data => {
+
+      for (let i = 0; i < data.length; i++) {
+        yearSelect.innerHTML += `<option value="${data[i]}">${data[i]}</option>`
+      }
+    })
+
+    yearSelect.addEventListener("change", (e) => {
+      schoolSelect.innerHTML = '<option value="" disabled selected>choisir une ecole</option>'
+      filierSelect.innerHTML = '<option value="" disabled selected>choisir une filier</option>'
+      trancheSelect.innerHTML = '<option value="" disabled selected>choisir une tranche</option>'
+
+      fetch(`/${e.target.value}data.json`)
+        .then(res => res.json()).then(data => {
+          MainData = data;
+          for (const [id, schoolName] of Object.entries(data)) {
+            schoolSelect.innerHTML += `<option value="${id}">${schoolName.name}</option>`
+          }
+        })
+    })
+
+    schoolSelect.addEventListener("change", (e) => {
+      filierSelect.innerHTML = '<option value="" disabled selected>choisir une filier</option>'
+      trancheSelect.innerHTML = '<option value="" disabled selected>choisir une tranche</option>'
+
+      fils = MainData[e.target.value].filiers
+
+      for (const [id, filier] of Object.entries(fils)) {
+        filierSelect.innerHTML += `<option value="${id}">${filier.name}</option>`
+      }
+    })
+
+    filierSelect.addEventListener("change", (e) => {
+      trancheSelect.innerHTML = '<option value="" disabled selected>choisir une tranche</option>'
+      for (const tranche of fils[e.target.value].list) {
+        trancheSelect.innerHTML += `<option value="${tranche}">${tranche == 14 ? "principal" : (tranche == 3 ? "attend 1" : (tranche == 4 ? "attend 2" : "attend 3"))}</option>`
+      }
+    })
+
+
+
+    const urlSearchParams = new URLSearchParams(window.location.search);
+    const params = Object.fromEntries(urlSearchParams.entries());
+    console.log(params);
+    document.getElementById("main").innerHTML = `<iframe style="width: 100%; height: 100vh;" src="/output/${params.year}-${params.school}-${params.filier}-${params.tranche}.html" frameborder="0"></iframe>`
+
+    if (params.year) {
+
+      fetch(`/${params.year}data.json`)
+        .then(res => res.json()).then(data => {
+          MainData = data;
+          document.getElementById("fullname").innerText = `${data[params.school].name} - ${data[params.school].filiers[params.filier].name} - ${params.tranche == "14" ? "principal" : (params.tranche == "3" ? "attend 1" : (params.tranche == "4" ? "attend 2" : "attend 3"))}`
+        })
+
+    }
+  </script>
 </body>
 
 </html>
