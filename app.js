@@ -530,12 +530,7 @@ async function getLists() {
   }
 
 }
-//   schoolName: 'Addakhla  -  Lycée Okba Ibn Nafea',
-//   id: '26261U',
-//   name: "Physique, Chimie et Sciences de l'Ingénieur",
-//   value: '38'
 
-// console.log(resulta.length) //resulta.length
 getLists()
 
 
