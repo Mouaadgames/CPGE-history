@@ -506,22 +506,31 @@ async function getLists() {
   for (const { __, id, _, value } of FilierResulta) {
     const schoolID = id
     const filierId = value
-
+    const ListNum = "5" // 14 : principal // 3 : attend 1 // 4 : attend 2 // 5 : attend 3
     var bodyFormData = new FormData();
     bodyFormData.append('SelectedCentre', schoolID);
     bodyFormData.append('SelectedFiliere', filierId);
-    bodyFormData.append('SelectedTranche', '14'); // 14 : principal // 3 : attend 1 // 4 : attend 2 // 5 : attend 3
+    bodyFormData.append('SelectedTranche', ListNum); // 14 : principal // 3 : attend 1 // 4 : attend 2 // 5 : attend 3
 
     //[TO-DO]: handle err
-    res = await axios({
-      method: "post",
-      url: 'https://moutamadris.men.gov.ma/moutamadris/CpgePublicationResult/RechercheCandidat',
-      data: bodyFormData
-    })
+    let failed = true
+    while (failed){
+      try {
+        res = await axios({
+          method: "post",
+          url: 'https://moutamadris.men.gov.ma/moutamadris/CpgePublicationResult/RechercheCandidat',
+          data: bodyFormData
+        })
+        failed = false
+      } catch (err) {
+        console.error(err)
+      }
+    }
+    
 
 
     try {
-      fs.writeFileSync(path.join(__dirname, "output", `${schoolID}-${filierId}.html`), res.data);
+      fs.writeFileSync(path.join(__dirname, "output", `2024-${schoolID}-${filierId}-${ListNum}.html`), res.data);
     } catch (err) {
       console.error(err);
     }
