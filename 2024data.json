@@ -507,11 +507,10 @@
       }
     }
   },
-  "14,3,4,5638K": {
+  "14638K": {
     "name": "Settat  -  Lycée Technique",
     "filiers": {
       "39": {
-        "name": "Economie et Commerce - Option Scientifique",
         "list": [
           14,3,4,5
         ]
